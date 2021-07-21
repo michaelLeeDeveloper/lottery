@@ -1,0 +1,14 @@
+.Lottery {
+
+}
+
+.LotteryBallContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.LotteryTitle {
+    font-size: 8rem;
+    font-weight: bolder;
+}

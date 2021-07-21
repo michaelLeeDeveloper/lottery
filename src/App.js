@@ -1,0 +1,16 @@
+import './App.css';
+import Lottery from "./Lottery"
+
+function App() {
+  return (
+    <div className="App">
+      <Lottery></Lottery>
+      <Lottery title="Mini Lottery"
+        numBalls="4"
+        maxNum="10" ></Lottery>
+
+    </div>
+  );
+}
+
+export default App;
